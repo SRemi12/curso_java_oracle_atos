@@ -9,9 +9,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+       <%= dameTitulo("Tabla de multiplicar JSP") %>
     </head>
     <body>
+        <%@include file="cabecera.jsp" %>
         <h1>Tabla de multiplicar de 7</h1>
         <%-- muestra una tabla con sus TRs, TDs, de la tabla 
         de mutiplicar del 0 al 10 con JSP --%>

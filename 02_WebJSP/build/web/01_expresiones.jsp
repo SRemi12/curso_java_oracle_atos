@@ -12,7 +12,8 @@
         <title>Expresiones JSP </title>
     </head>
     <body>
-        <h1>Ejemplos JSP </h1>
+        <%@include file="cabecera.jsp" %>
+        <%= dameTitulo("Ejemplos JSP") %>
         <%= new java.util.Date().toString() %> <br />
         
         <%-- Convertir a mayúsculas un String --%>
